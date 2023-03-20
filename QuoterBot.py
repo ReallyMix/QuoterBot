@@ -14,7 +14,7 @@ def get_quote():
     return data["quoteText"] + "\n" + "\n" +data["quoteAuthor"] + data["senderName"]
 
 
-TOKEN = "5993789607:AAGm4z_ryeLiRJ9DxleMtBYedRPZM0lIjDc"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 keyboard = ReplyKeyboardMarkup(resize_keyboard=True)
